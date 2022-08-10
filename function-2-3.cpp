@@ -33,7 +33,7 @@ int palindrome_sum(int integers[], int length){
             return -2;
         }
         else{
-            sum_integers(integers,length);
+            return sum_integers(integers,length);
         }
     }
 }
