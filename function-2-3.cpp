@@ -6,7 +6,7 @@ bool is_array_palindrome(int integers[], int length){
         int front = 0+i;
         int back = (length-1)-i;
 
-        if(front >= back){
+        if(front > back){
             return is_Palindrome;
         }else{
             if(integers[front] != integers[back]){
@@ -29,7 +29,7 @@ int palindrome_sum(int integers[], int length){
     if(length < 1){
         return -1;
     }else{
-        if (is_array_palindrome(integers,length)){
+        if (is_array_palindrome(integers,length) == false){
             return -2;
         }
         else{
