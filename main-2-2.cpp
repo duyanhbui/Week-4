@@ -7,5 +7,5 @@ int main(int argc,int **argv){
     int array[length] = { 31, -41, 59, 26, -53, 58, 97, -93, -23, 84 };
     int *nums = &array[0];
 
-    max_sub_sum(nums,length);
+    std ::  cout << max_sub_sum(nums,length);
 }
